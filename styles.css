@@ -1,0 +1,120 @@
+html {
+    background-color: antiquewhite;
+}
+
+.top-bar {
+    background-color: blanchedalmond;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid grey;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo img{
+    width: 300px; 
+    height: 300px;
+    
+}
+
+a, a:visited{
+    color: blue;
+}
+
+.social-links {
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 60%;
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middle-container {
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mid-text {
+    font-size: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 25px;
+    animation: blink 4s linear;
+}
+
+.middle-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: 4;}
+    100%{opacity: 8;}
+}
+
+.about-us {
+    background-color: blanchedalmond;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-us img {
+    height: 600px;
+    width: auto;
+}
+
+.about-us .right {
+    padding-right: 25px;
+    padding-left: 50px;
+    background-color: blanchedalmond;
+    font-size: larger;
+    width: 100%;
+    height: 200%;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
